@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Preise für Webseiten, Automation &amp; Beratung | Bingo</title>
+<meta name="description" content="Richtpreise für Beratung, Automation, Leads, Social Media, Webseiten und Software. Den genauen Festpreis bekommst du vor dem Start.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://bingo-web.de/preise/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#ffc6dd">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Bingo Web Services">
+<meta property="og:title" content="Preise für Webseiten, Automation &amp; Beratung | Bingo">
+<meta property="og:description" content="Richtpreise für Beratung, Automation, Leads, Social Media, Webseiten und Software. Den genauen Festpreis bekommst du vor dem Start.">
+<meta property="og:url" content="https://bingo-web.de/preise/">
+<meta property="og:image" content="https://bingo-web.de/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="../fonts/unbounded.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Start",
+     "item": "https://bingo-web.de/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Preise und Pakete",
+     "item": "https://bingo-web.de/preise/"
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "url": "https://bingo-web.de/preise/",
+   "name": "Preise für Webseiten, Automation & Beratung | Bingo",
+   "description": "Richtpreise für Beratung, Automation, Leads, Social Media, Webseiten und Software. Den genauen Festpreis bekommst du vor dem Start.",
+   "inLanguage": "de-DE",
+   "isPartOf": {
+    "@id": "https://bingo-web.de/#site"
+   }
+  }
+ ]
+}
+</script>
+<style>
+@font-face { font-family: "Unbounded"; font-style: normal; font-weight: 200 900; font-display: swap; src: url("../fonts/unbounded.woff2") format("woff2"); }
+@font-face { font-family: "Figtree"; font-style: normal; font-weight: 300 900; font-display: swap; src: url("../fonts/figtree.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 100 800; font-display: swap; src: url("../fonts/jetbrains-mono.woff2") format("woff2"); }
+
+/* Layout: full-bleed color field with a living geometric "bingo" wordmark (canvas, fisheye under the cursor),
+   then a large intro statement and big full-width rows. Each area swaps the field color. */
+:root {
+  --bg: #f3f2ef;
+  --surface: #ffffff;
+  --fg: #16141a;
+  --muted: #5f5c66;
+  --line: #d9d6d0;
+  --studio: #ff7fb2;
+  --beratung: #1fb5c9;
+  --automation: #12b886;
+  --leads: #ffb020;
+  --social: #ff5fa2;
+  --web: #3d7bff;
+  --custom: #a45cff;
+  --pill-bg: #16141a;
+  --pill-fg: #ffffff;
+  --display: "Unbounded", "Arial Black", system-ui, sans-serif;
+  --body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121115; --surface: #1b1a20; --fg: #eeedf1; --muted: #a09da8; --line: #2d2b33;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121115; --surface: #1b1a20; --fg: #eeedf1; --muted: #a09da8; --line: #2d2b33;
+  color-scheme: dark;
+}
+body[data-view="studio"] { --accent: var(--studio); }
+body[data-view="beratung"] { --accent: var(--beratung); }
+body[data-view="automation"] { --accent: var(--automation); }
+body[data-view="leads"] { --accent: var(--leads); }
+body[data-view="social"] { --accent: var(--social); }
+body[data-view="web"] { --accent: var(--web); }
+body[data-view="custom"] { --accent: var(--custom); }
+body[data-view="ueber"], body[data-view="preise"], body[data-view="beispiele"], body[data-view="kontakt"], body[data-view="impressum"], body[data-view="datenschutz"] { --accent: var(--studio); }
+body[data-view="ratgeber"], body[data-view="digitalbonus"] { --accent: var(--ratgeber); }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.55; }
+.wrap { max-width: 1280px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--fg); outline-offset: 3px; border-radius: 6px; }
+
+/* Nav pills, top right over the field */
+nav { position: fixed; z-index: 20; top: calc(env(safe-area-inset-top, 0px) + 14px); right: max(14px, env(safe-area-inset-right, 0px)); display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+nav > a:hover, .dd-btn:hover { transform: translateY(-1px); }
+nav > a[aria-current="page"] { background: var(--pill-fg); color: var(--pill-bg); box-shadow: inset 0 0 0 2px var(--pill-bg); }
+
+/* Hero field */
+.field { position: relative; height: clamp(440px, 52vw, 720px); overflow: hidden; touch-action: pan-y; }
+.field canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: none; }
+.field .label { position: absolute; left: max(16px, env(safe-area-inset-left, 0px)); top: calc(env(safe-area-inset-top, 0px) + 22px); font-family: var(--mono); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; pointer-events: none; }
+.field .hint { position: absolute; right: max(16px, env(safe-area-inset-right, 0px)); top: calc(env(safe-area-inset-top, 0px) + 60px); font-family: var(--mono); font-size: 12px; letter-spacing: .06em; opacity: .7; pointer-events: none; }
+
+/* Intro statement */
+.intro { padding-block: 40px 56px; }
+.intro p { font-size: clamp(22px, 3vw, 38px); line-height: 1.25; font-weight: 500; letter-spacing: -0.01em; max-width: 30em; margin: 0; text-wrap: pretty; }
+.intro p strong { font-weight: 600; background: linear-gradient(transparent 62%, color-mix(in srgb, var(--accent) 45%, transparent) 62%); }
+
+/* Big rows */
+.rows { border-top: 2px solid var(--fg); }
+.row { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 13rem; gap: 24px; align-items: center; padding-block: 26px; padding-inline: 12px; border-bottom: 1px solid var(--line); text-decoration: none; position: relative; isolation: isolate; }
+.row::before { content: ""; position: absolute; inset: 0; background: var(--c, var(--accent)); transform: scaleY(0); transform-origin: bottom; transition: transform .35s cubic-bezier(.6,0,.2,1); z-index: -1; }
+a.row:hover::before { transform: scaleY(1); }
+a.row:hover { color: #16141a; }
+a.row:hover .row-text { color: #16141a; }
+.row h3 { font-family: var(--display); font-weight: 700; font-size: clamp(26px, 4.4vw, 56px); letter-spacing: -0.03em; line-height: 1; margin: 0; }
+.row .row-text { color: var(--muted); margin: 0; transition: color .2s; }
+.row .tag { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; text-align: right; }
+.row.beratung { --c: var(--beratung); } .row.automation { --c: var(--automation); } .row.leads { --c: var(--leads); } .row.social { --c: var(--social); } .row.web { --c: var(--web); } .row.custom { --c: var(--custom); }
+.row .dot { width: 14px; height: 14px; border-radius: 50%; background: var(--c, var(--accent)); display: inline-block; margin-right: 10px; vertical-align: middle; }
+.row h3 .de { display: block; font-family: var(--body); font-weight: 500; font-size: clamp(14px, 1.4vw, 17px); letter-spacing: 0; margin-top: 8px; color: var(--muted); }
+a.row:hover h3 .de { color: #16141a; }
+.hero-copy { position: absolute; left: max(16px, env(safe-area-inset-left, 0px)); right: max(16px, env(safe-area-inset-right, 0px)); bottom: 22px; display: flex; align-items: end; justify-content: space-between; gap: 16px 32px; flex-wrap: wrap; pointer-events: none; }
+.hero-copy > div { min-width: 0; max-width: 40em; }
+.hero-copy h1 { font-family: var(--display); font-weight: 700; font-size: clamp(22px, 3.2vw, 40px); letter-spacing: -0.02em; line-height: 1.08; margin: 0 0 6px; text-wrap: balance; }
+.hero-copy p { margin: 0; font-size: clamp(15px, 1.4vw, 18px); opacity: .85; }
+.cta { pointer-events: auto; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-weight: 600; font-size: 16px; padding: 13px 22px; border-radius: 10px; background: currentColor; transition: transform .15s; }
+.cta span { color: var(--fbg, #fff); }
+.cta:hover { transform: translateY(-2px); }
+.contact .reach { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+.rows.services h3 { font-size: clamp(22px, 3.2vw, 40px); }
+
+section { padding-block: 48px; }
+.kicker { font-family: var(--mono); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 16px; }
+
+.specs { font-family: var(--mono); font-size: 14px; border-top: 2px solid var(--fg); display: grid; grid-template-columns: max-content 1fr; overflow-x: auto; }
+.specs dt, .specs dd { padding: 12px 12px; border-bottom: 1px solid var(--line); margin: 0; }
+.specs dt { color: var(--muted); padding-right: 32px; }
+
+.contact { display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; border-top: 2px solid var(--fg); padding-top: 28px; }
+.contact h2 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 64px); letter-spacing: -0.03em; line-height: 1; margin: 0; }
+.mail { font-family: var(--mono); font-size: clamp(16px, 2vw, 22px); user-select: all; border-bottom: 3px solid var(--accent); padding-bottom: 2px; }
+footer { padding-block: 32px 48px; color: var(--muted); font-size: 14px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+.legal { max-width: 46em; padding-block: 40px 24px; }
+.legal h2 { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 4vw, 44px); letter-spacing: -0.02em; margin: 0 0 24px; }
+.legal h3 { font-size: 19px; margin: 32px 0 8px; }
+.legal p, .legal li { color: var(--fg); max-width: 65ch; }
+.legal p { margin: 0 0 12px; }
+.legal .note { color: var(--muted); font-size: 15px; }
+footer a { color: inherit; }
+.ph { border: 2px dashed var(--line); border-radius: 14px; color: var(--muted); padding: 14px 16px; font-size: 15px; }
+.ph b { color: var(--fg); }
+.ph-tag { display: inline-block; font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; background: var(--accent); color: #16141a; padding: 2px 7px; border-radius: 5px; margin-right: 8px; vertical-align: 1px; }
+.about { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 32px; align-items: start; padding-block: 40px 16px; }
+.photo { aspect-ratio: 4 / 5; max-width: 100%; border: 2px dashed var(--line); border-radius: 18px; display: grid; place-items: center; color: var(--muted); font-family: var(--mono); font-size: 13px; text-align: center; padding: 16px; }
+.about .intro { padding-block: 0 16px; }
+.gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.gallery .tile { aspect-ratio: 1; max-width: 100%; border: 2px dashed var(--line); border-radius: 14px; display: grid; place-items: center; color: var(--muted); font-family: var(--mono); font-size: 12px; text-align: center; padding: 8px; }
+.form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; max-width: 760px; }
+.form label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: 15px; min-width: 0; }
+.form .wide { grid-column: 1 / -1; }
+.form input, .form select, .form textarea { font: inherit; font-weight: 400; padding: 12px 14px; border-radius: 10px; border: 1.5px solid var(--line); background: var(--surface); color: var(--fg); min-width: 0; }
+.form textarea { min-height: 130px; resize: vertical; }
+.form button { justify-self: start; font: inherit; font-weight: 600; padding: 13px 22px; border-radius: 10px; border: 0; background: var(--fg); color: var(--bg); cursor: pointer; }
+.form-note { grid-column: 1 / -1; color: var(--muted); font-size: 14px; margin: 0; }
+.dd { position: relative; flex: none; }
+nav > a, .dd-btn { text-decoration: none; font: inherit; font-weight: 600; font-size: 15px; padding: 6px 13px; border-radius: 8px; border: 0; background: var(--pill-bg); color: var(--pill-fg); cursor: pointer; transition: transform .15s; white-space: nowrap; }
+.dd-btn[aria-current="page"] { background: var(--pill-fg); color: var(--pill-bg); box-shadow: inset 0 0 0 2px var(--pill-bg); }
+.dd-menu { position: absolute; top: calc(100% + 8px); right: 0; min-width: 280px; background: var(--pill-bg); border-radius: 14px; padding: 8px; display: flex; flex-direction: column; gap: 2px; box-shadow: 0 12px 40px rgba(0,0,0,.25); z-index: 30; }
+.dd-menu[hidden] { display: none; }
+h2.kicker { font-weight: 400; }
+:root { --ratgeber: #c6e55a; }
+.foerder { margin: 32px 0 8px; padding: 20px 22px; border-radius: 16px; background: color-mix(in srgb, var(--ratgeber) 28%, var(--bg)); max-width: 60em; }
+.foerder p { margin: 0; font-size: 17px; line-height: 1.55; }
+.foerder .foerder-tag { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.foerder a { color: inherit; font-weight: 600; }
+.crumbs { font-family: var(--mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding-top: 32px; margin: 0; }
+.crumbs a { color: inherit; }
+.article { max-width: 44em; padding-block: 24px 16px; }
+.article .lead { font-size: clamp(19px, 2vw, 23px); line-height: 1.5; margin: 0 0 28px; }
+.article h2 { font-family: var(--display); font-weight: 700; font-size: clamp(22px, 3vw, 32px); letter-spacing: -0.02em; line-height: 1.15; margin: 44px 0 14px; }
+.article h3 { font-size: 19px; margin: 24px 0 6px; }
+.article p, .article li { max-width: 65ch; }
+.article p { margin: 0 0 14px; }
+.article ul, .article ol { padding-left: 22px; margin: 0 0 16px; display: flex; flex-direction: column; gap: 6px; }
+.article .facts { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 22px 8px; }
+.article .facts h2 { margin-top: 0; font-size: 20px; }
+.article .note { color: var(--muted); font-size: 15px; border-top: 1px solid var(--line); padding-top: 14px; margin-top: 32px; }
+.article a { color: inherit; }
+.article .cta-inline { display: inline-block; margin-top: 4px; padding: 12px 18px; border-radius: 999px; background: var(--fg); color: var(--bg); font-weight: 600; text-decoration: none; }
+.price-note { color: var(--muted); font-size: 15px; line-height: 1.6; max-width: 70ch; margin: 20px 12px 0; }
+.reach .mail a { color: inherit; text-decoration: none; }
+.founder { display: flex; align-items: center; gap: 24px; padding: 24px 12px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: inherit; text-decoration: none; }
+.founder-img { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; object-position: 50% 20%; flex: none; }
+.founder p { margin: 0; font-size: clamp(16px, 1.5vw, 19px); line-height: 1.55; max-width: 62ch; }
+.founder-more { font-weight: 600; white-space: nowrap; }
+.founder:hover .founder-more { text-decoration: underline; }
+.about-quote { margin: 8px 0 22px; padding: 4px 0 4px 20px; border-left: 3px solid var(--accent, currentColor); max-width: 60ch; }
+.about-quote p { font-size: clamp(17px, 1.7vw, 21px); line-height: 1.5; margin: 0 0 8px; font-style: italic; }
+.about-quote cite { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; font-style: normal; color: var(--muted); }
+.photo.has-img { border: 0; padding: 0; margin: 0; position: relative; overflow: hidden; display: block; transform: rotate(-1.5deg); transition: transform .4s ease; }
+.photo.has-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo.has-img .real { opacity: 0; transition: opacity .5s ease; }
+.photo.has-img:hover { transform: rotate(0deg) scale(1.02); }
+.photo.has-img:hover .real { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .photo.has-img, .photo.has-img .real { transition: none; } }
+.about-text { font-size: clamp(16px, 1.5vw, 19px); line-height: 1.6; margin: 0 0 14px; max-width: 60ch; }
+.dd-menu a { display: grid; grid-template-columns: 12px minmax(0, 1fr); column-gap: 12px; align-items: center; padding: 10px 12px; border-radius: 9px; color: var(--pill-fg); text-decoration: none; font-weight: 600; font-size: 15px; background: transparent; }
+.dd-menu a:hover, .dd-menu a[aria-current="page"] { background: rgba(255,255,255,.12); }
+.dd-menu i { width: 12px; height: 12px; border-radius: 50%; grid-row: span 2; }
+.dd-menu small { grid-column: 2; font-weight: 400; font-size: 13px; opacity: .7; }
+.view[hidden] { display: none; }
+.view.enter { animation: rise .5s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes rise { from { opacity: .4; translate: 0 16px; } to { opacity: 1; translate: 0 0; } }
+
+@media (max-width: 760px) {
+  .about { grid-template-columns: minmax(0, 1fr); }
+  .photo { max-width: 260px; }
+  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .form { grid-template-columns: minmax(0, 1fr); }
+  .row { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .row .tag { order: -1; text-align: left; }
+  .field .hint { display: none; }
+  .field .label { display: none; }
+  .field { height: 500px; }
+  nav { left: 0; right: 0; flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; padding-left: max(12px, env(safe-area-inset-left, 0px)); padding-right: max(12px, env(safe-area-inset-right, 0px)); }
+  nav::-webkit-scrollbar { display: none; }
+  nav > a, .dd-btn { font-size: 14px; padding: 6px 11px; flex: none; }
+  .dd-menu { position: fixed; top: calc(env(safe-area-inset-top, 0px) + 56px); left: max(12px, env(safe-area-inset-left, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); min-width: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body data-view="preise">
+<nav aria-label="Hauptmenü">
+  <a href="../" data-page="studio">Start</a>
+  <div class="dd">
+    <button type="button" class="dd-btn" id="dd-btn" aria-expanded="false" aria-controls="dd-menu">Leistungen <span aria-hidden="true">▾</span></button>
+    <div class="dd-menu" id="dd-menu" hidden>
+      <a href="../beratung/" data-page="beratung"><i style="background:var(--beratung)"></i>Beratung<small>Klarheit vor der Umsetzung</small></a>
+      <a href="../automatisierung/" data-page="automation"><i style="background:var(--automation)"></i>Automation<small>Arbeit automatisch erledigen</small></a>
+      <a href="../lead-recherche/" data-page="leads"><i style="background:var(--leads)"></i>Leads<small>Neue Kunden finden</small></a>
+      <a href="../social-media/" data-page="social"><i style="background:var(--social)"></i>Social Media<small>Content, Design & Ads</small></a>
+      <a href="../webdesign/" data-page="web"><i style="background:var(--web)"></i>Web<small>Neue Webseiten</small></a>
+      <a href="../software/" data-page="custom"><i style="background:var(--custom)"></i>Custom<small>Software nach Maß</small></a>
+    </div>
+  </div>
+  <a href="../ueber-uns/" data-page="ueber">Über uns</a>
+  <a href="../preise/" aria-current="page" data-page="preise">Preise</a>
+  <a href="../ratgeber/" data-page="ratgeber">Ratgeber</a>
+  <a href="../kontakt/" data-page="kontakt">Kontakt</a>
+</nav>
+
+<header class="field" id="field">
+  <canvas id="logo" role="img" aria-label="Bingo Web Services Logo"></canvas>
+  <div class="label" id="label">Bingo Web Services</div>
+  <div class="hint">Fahr mit der Maus über das Logo</div>
+  <div class="hero-copy">
+    <div><h1>Preise und Pakete.</h1><p>Richtpreise für den Einstieg. Den genauen Festpreis bekommst du vor dem Start.</p></div>
+    <a class="cta" href="../kontakt/" data-page="kontakt"><span>Kostenloses Erstgespräch →</span></a>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- START -->
+  <div class="view" data-view="preise">
+    <div class="intro"><p>Damit du weißt, woran du bist: <strong>Richtpreise</strong> für den Einstieg. Das genaue Angebot bekommst du nach einem kostenlosen Erstgespräch.</p></div>
+    <h2 class="kicker">Ab-Preise</h2>
+    <div class="rows">
+      <a class="row beratung" href="../beratung/" data-page="beratung"><h3><span class="dot"></span>Beratung</h3><p class="row-text">Digital-Check mit schriftlicher Handlungsempfehlung.</p><span class="tag">ab 490 €</span></a>
+      <a class="row automation" href="../automatisierung/" data-page="automation"><h3><span class="dot"></span>Automation</h3><p class="row-text">Ein automatisierter Ablauf, eingerichtet und getestet.</p><span class="tag">ab 390 €</span></a>
+      <a class="row leads" href="../lead-recherche/" data-page="leads"><h3><span class="dot"></span>Leads</h3><p class="row-text">Recherche für eine Branche und Region.</p><span class="tag">ab 290 €</span></a>
+      <a class="row social" href="../social-media/" data-page="social"><h3><span class="dot"></span>Social Media</h3><p class="row-text">Monatliches Post-Paket.</p><span class="tag">ab 490 € / Monat</span></a>
+      <a class="row web" href="../webdesign/" data-page="web"><h3><span class="dot"></span>Web</h3><p class="row-text">Neue Webseite inklusive Einrichtung.</p><span class="tag">ab 1.490 €</span></a>
+      <a class="row custom" href="../software/" data-page="custom"><h3><span class="dot"></span>Custom</h3><p class="row-text">Individuelle Projekte nach Aufwand.</p><span class="tag">auf Anfrage</span></a>
+    </div>
+    <section>
+      <p class="price-note">Die Preise sind Richtwerte für einen typischen Einstieg. Je nach Umfang kann es mehr oder weniger sein, den genauen Festpreis bekommst du vor dem Start. Alle Preise sind Endpreise, gemäß §&nbsp;19&nbsp;UStG wird keine Umsatzsteuer berechnet.</p>
+    </section>
+  </div>
+
+  <section id="kontakt">
+    <div class="contact">
+      <h2>Lass uns reden.</h2>
+      <div class="reach"><div class="mail"><a href="mailto:christoph@bingo-web.de">christoph@bingo-web.de</a></div><div class="mail">0157 38810400</div></div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>© 2026 Bingo Web Services</span>
+  <span><a href="../ueber-uns/" data-page="ueber">Über uns</a> · <a href="../preise/" data-page="preise">Preise</a> · <a href="../ratgeber/" data-page="ratgeber">Ratgeber</a> · <a href="../kontakt/" data-page="kontakt">Kontakt</a> · <a href="../impressum/" data-page="impressum">Impressum</a> · <a href="../datenschutz/" data-page="datenschutz">Datenschutz</a></span>
+</footer>
+
+<script>
+(() => {
+  // Field colors per area: [background, ink]
+  const FIELDS = {
+    studio:     ["#ffc6dd", "#2b0717"],
+    beratung:   ["#1fb5c9", "#04232a"],
+    automation: ["#12b886", "#05261b"],
+    leads:      ["#ffb020", "#2a1800"],
+    social:     ["#ff5fa2", "#2b0717"],
+    web:        ["#3d7bff", "#f2f5ff"],
+    custom:     ["#a45cff", "#faf5ff"],
+    ueber:      ["#ffd8c7", "#2b0717"],
+    preise:     ["#9ad0ff", "#0b1a2e"],
+    beispiele:  ["#ecd6ff", "#2a0b33"],
+    kontakt:    ["#c9f0e1", "#05261b"],
+    impressum:  ["#dedbd4", "#16141a"],
+    datenschutz:["#dedbd4", "#16141a"],
+    ratgeber:   ["#c6e55a", "#1c2400"],
+    digitalbonus:["#c6e55a", "#1c2400"]
+  };
+  const LABELS = { studio: "Bingo Web Services", beratung: "Beratung · Klarheit vor der Umsetzung", automation: "Automation · Arbeit automatisch erledigen", leads: "Leads · Neue Kunden finden", social: "Social Media · Content, Design & Ads", web: "Web · Neue Webseiten", custom: "Custom · Software nach Maß", ueber: "Über uns", preise: "Preise", beispiele: "Beispiele", kontakt: "Kontakt", impressum: "Impressum", datenschutz: "Datenschutz", ratgeber: "Ratgeber", digitalbonus: "Ratgeber · Digitalbonus Bayern" };
+
+  // ---- Wordmark geometry (units: x-height = 1, y grows downwards) ----
+  const STROKE = 0.12;
+  const arc = (cx, cy, r, a0, a1) => {
+    const n = Math.max(12, Math.ceil(Math.abs(a1 - a0) * r * 60));
+    const pts = [];
+    for (let i = 0; i <= n; i++) { const a = a0 + (a1 - a0) * i / n; pts.push([cx + Math.cos(a) * r, cy + Math.sin(a) * r]); }
+    return pts;
+  };
+  const line = (x0, y0, x1, y1) => {
+    const n = Math.max(8, Math.ceil(Math.hypot(x1 - x0, y1 - y0) * 40));
+    const pts = [];
+    for (let i = 0; i <= n; i++) pts.push([x0 + (x1 - x0) * i / n, y0 + (y1 - y0) * i / n]);
+    return pts;
+  };
+  const TAU = Math.PI * 2;
+  const pieces = [
+    [line(0, -0.8, 0, 1)],                                   // b stem
+    [arc(0.5, 0.5, 0.5, 0, TAU)],                            // b bowl
+    [line(1.36, 0, 1.36, 1)],                                // i stem
+    [arc(1.36, -0.34, 0.06, 0, TAU)],                        // i dot
+    [line(1.72, 0, 1.72, 1)],                                // n stem
+    [arc(2.22, 0.5, 0.5, Math.PI, TAU).concat(line(2.72, 0.5, 2.72, 1))], // n arch
+    [arc(3.58, 0.5, 0.5, 0, TAU)],                           // g bowl
+    [line(4.08, 0, 4.08, 1.25).concat(arc(3.58, 1.25, 0.5, 0, Math.PI))], // g hook
+    [arc(4.94, 0.5, 0.5, 0, TAU)],                           // o
+    [arc(5.70, 0.88, 0.06, 0, TAU)]                          // full stop
+  ].map((paths, i) => {
+    let sx = 0, sy = 0, n = 0;
+    paths.forEach(p => p.forEach(([x, y]) => { sx += x; sy += y; n++; }));
+    const r = (k) => { const v = Math.sin((i + 1) * 12.9898 + k * 78.233) * 43758.5453; return v - Math.floor(v); };
+    return { paths, cx: sx / n, cy: sy / n, dx: (r(1) - 0.5) * 2.4, dy: (r(2) - 0.5) * 1.6, rot: (r(3) - 0.5) * 3.2, off: r(4) * 0.12 };
+  });
+  const BOUNDS = { x0: -STROKE, x1: 5.76 + STROKE, y0: -0.8 - STROKE, y1: 1.75 + STROKE };
+
+  // ---- Canvas ----
+  const field = document.getElementById("field");
+  const cv = document.getElementById("logo");
+  const ctx = cv.getContext("2d");
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let W = 0, H = 0, dpr = 1, scale = 1, ox = 0, oy = 0;
+  function resize() {
+    dpr = Math.min(2, window.devicePixelRatio || 1);
+    W = field.clientWidth; H = field.clientHeight;
+    cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+    const bw = BOUNDS.x1 - BOUNDS.x0, bh = BOUNDS.y1 - BOUNDS.y0;
+    const LOGO_H = H * (W < 760 ? 0.5 : 0.6);
+    scale = Math.min((W * 0.94) / bw, LOGO_H / bh);
+    ox = (W - bw * scale) / 2 - BOUNDS.x0 * scale;
+    oy = (W < 760 ? 64 : H * 0.08) + (LOGO_H - bh * scale) / 2 - BOUNDS.y0 * scale;
+  }
+  new ResizeObserver(resize).observe(field);
+  resize();
+
+  // ---- Lens (fisheye) ----
+  const lens = { x: W / 2, y: H / 2, tx: W / 2, ty: H / 2, s: 0, inside: false, last: -1e9 };
+  field.addEventListener("pointermove", e => {
+    const r = cv.getBoundingClientRect();
+    lens.tx = e.clientX - r.left; lens.ty = e.clientY - r.top; lens.inside = true; lens.last = performance.now();
+  });
+  field.addEventListener("pointerleave", () => { lens.inside = false; lens.last = performance.now(); });
+
+  function fisheye(x, y, R, k) {
+    const dx = x - lens.x, dy = y - lens.y, d = Math.hypot(dx, dy);
+    if (d >= R || d === 0 || k === 0) return [x, y];
+    const u = d / R, nd = R * (u + k * (2 * u - u * u - u)); // blend identity with r' = R(2u - u²)
+    return [lens.x + dx / d * nd, lens.y + dy / d * nd];
+  }
+
+  // ---- Color blending ----
+  const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+  let curBg = hex(FIELDS.studio[0]), curInk = hex(FIELDS.studio[1]);
+  let tgtBg = curBg, tgtInk = curInk;
+  const mix = (a, b, t) => a.map((v, i) => v + (b[i] - v) * t);
+  const css = c => `rgb(${c.map(Math.round).join(",")})`;
+
+  // ---- Piece motion ----
+  const PERIOD = 7.5;
+  function amount(t, p) {
+    if (reduce) return 0;
+    const u = ((t / PERIOD + p.off) % 1 + 1) % 1;
+    if (u < 0.35) return 0;
+    // smootherstep out and back: zero speed and acceleration at both ends, long gentle landing
+    const ease = x => x * x * x * (x * (x * 6 - 15) + 10);
+    const x = (u - 0.35) / 0.65;
+    return x < 0.35 ? ease(x / 0.35) : 1 - ease((x - 0.35) / 0.65);
+  }
+  function transformPt(p, t, x, y) {
+    const a = amount(t, p);
+    const wob = reduce ? 0 : 0.025;
+    const ang = p.rot * a + wob * Math.sin(t * 1.1 + p.off * 40);
+    const c = Math.cos(ang), s = Math.sin(ang);
+    const lx = x - p.cx, ly = y - p.cy;
+    const ux = p.cx + lx * c - ly * s + p.dx * a + wob * Math.sin(t * 0.9 + p.cy * 3);
+    const uy = p.cy + lx * s + ly * c + p.dy * a + wob * Math.cos(t * 0.7 + p.cx);
+    return [ox + ux * scale, oy + uy * scale];
+  }
+  function tracePiece(p, t, R, k) {
+    ctx.beginPath();
+    p.paths.forEach(path => {
+      path.forEach(([x, y], i) => {
+        const [px, py] = transformPt(p, t, x, y);
+        const [fx, fy] = fisheye(px, py, R, k);
+        i ? ctx.lineTo(fx, fy) : ctx.moveTo(fx, fy);
+      });
+    });
+  }
+
+  let heroVisible = true;
+  new IntersectionObserver(es => { heroVisible = es[0].isIntersecting; }).observe(field);
+  const ECHOES = 18, ECHO_DT = 0.028;
+  function frame(now) {
+    if (!heroVisible) { requestAnimationFrame(frame); return; }
+    const t = now / 1000;
+    // lens follows pointer, or wanders slowly when idle
+    const idle = !lens.inside && now - lens.last > 2500;
+    if (idle) {
+      lens.tx = W * (0.5 + 0.36 * Math.sin(t * 0.37));
+      lens.ty = H * (0.48 + 0.22 * Math.cos(t * 0.53));
+    }
+    lens.x += (lens.tx - lens.x) * 0.18; lens.y += (lens.ty - lens.y) * 0.18;
+    const want = lens.inside ? 1 : (idle && !reduce ? 0.55 : 0);
+    lens.s += (want - lens.s) * 0.08;
+    const R = Math.min(W, H) * 0.42, k = lens.s;
+
+    curBg = mix(curBg, tgtBg, 0.08); curInk = mix(curInk, tgtInk, 0.08);
+    const bg = css(curBg), ink = css(curInk);
+    field.style.color = ink;
+    field.style.setProperty("--fbg", bg);
+
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
+    ctx.lineCap = "butt"; ctx.lineJoin = "round";
+    const w = STROKE * scale;
+
+    for (const p of pieces) {
+      // keep drawing trails until the oldest echo has landed too, so they fade out instead of vanishing
+      const moving = amount(t, p) > 0.0005 || amount(t - ECHOES * ECHO_DT, p) > 0.0005;
+      if (moving) {
+        // stacked ribbon echoes: ink outline with background core, oldest first
+        for (let e = ECHOES; e >= 1; e--) {
+          const te = t - e * ECHO_DT;
+          tracePiece(p, te, R, k);
+          ctx.strokeStyle = ink; ctx.lineWidth = w; ctx.stroke();
+          ctx.strokeStyle = bg; ctx.lineWidth = Math.max(0, w - 2.2); ctx.stroke();
+        }
+      }
+      tracePiece(p, t, R, k);
+      ctx.strokeStyle = ink; ctx.lineWidth = w; ctx.stroke();
+    }
+
+    // lens cursor ring
+    if (k > 0.05) {
+      ctx.beginPath(); ctx.arc(lens.x, lens.y, 6, 0, TAU);
+      ctx.fillStyle = ink; ctx.globalAlpha = Math.min(1, k); ctx.fill(); ctx.globalAlpha = 1;
+    }
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  // ---- Leistungen dropdown ----
+  const ddBtn = document.getElementById("dd-btn"), ddMenu = document.getElementById("dd-menu");
+  function closeMenu() { ddMenu.hidden = true; ddBtn.setAttribute("aria-expanded", "false"); }
+  ddBtn.addEventListener("click", e => {
+    e.stopPropagation();
+    const open = ddMenu.hidden;
+    ddMenu.hidden = !open; ddBtn.setAttribute("aria-expanded", String(open));
+  });
+  document.addEventListener("click", e => { if (!e.target.closest(".dd")) closeMenu(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeMenu(); });
+
+  // ---- Views ----
+  const valid = Object.keys(FIELDS);
+  function show(view, animate) {
+    if (!valid.includes(view)) view = "studio";
+    document.body.dataset.view = view;
+    tgtBg = hex(FIELDS[view][0]); tgtInk = hex(FIELDS[view][1]);
+    if (!animate) { curBg = tgtBg; curInk = tgtInk; }
+    document.getElementById("label").textContent = LABELS[view];
+    document.querySelectorAll(".view").forEach(v => {
+      const on = v.dataset.view === view;
+      v.hidden = !on;
+      if (on && animate) { v.classList.remove("enter"); void v.offsetWidth; v.classList.add("enter"); }
+    });
+    document.querySelectorAll("nav a").forEach(a => {
+      if ((a.dataset.go || a.dataset.page) === view) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    if (view === "digitalbonus") document.querySelectorAll('nav a[data-go="ratgeber"], nav a[data-page="ratgeber"]').forEach(a => a.setAttribute("aria-current", "page"));
+    const isService = ["beratung", "automation", "leads", "social", "web", "custom"].includes(view);
+    if (isService) ddBtn.setAttribute("aria-current", "page"); else ddBtn.removeAttribute("aria-current");
+    closeMenu();
+  }
+  document.addEventListener("click", e => {
+    const a = e.target.closest("[data-go]");
+    if (!a) return;
+    e.preventDefault();
+    show(a.dataset.go, true);
+    try { history.replaceState(null, "", "#" + a.dataset.go); } catch (_) {}
+    window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+  });
+  document.getElementById("contact-form")?.addEventListener("submit", e => {
+    e.preventDefault();
+    document.getElementById("cf-note").textContent = "Danke! Das Formular ist noch nicht angebunden, deine Nachricht wurde nicht gesendet. Bitte schreib uns per E-Mail oder ruf an.";
+  });
+  const ROUTES = {"studio": "../", "beratung": "../beratung/", "automation": "../automatisierung/", "leads": "../lead-recherche/", "social": "../social-media/", "web": "../webdesign/", "custom": "../software/", "ueber": "../ueber-uns/", "preise": "../preise/", "kontakt": "../kontakt/", "ratgeber": "../ratgeber/", "digitalbonus": "../ratgeber/digitalbonus-bayern/", "impressum": "../impressum/", "datenschutz": "../datenschutz/"};
+  const legacy = (location.hash || "").slice(1);
+  if (legacy && ROUTES[legacy] && legacy !== document.body.dataset.view) { location.replace(ROUTES[legacy]); }
+  show(document.body.dataset.view, false);
+})();
+</script>
+</body>
+</html>
